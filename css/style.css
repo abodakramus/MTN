@@ -1,0 +1,83 @@
+:root{
+    --dark-color: #01668E;
+    --yellow-color: #FFCB03;
+    --black-color: #000000;
+}
+
+body{
+    font-family: 'Cairo', sans-serif;
+}
+
+/* start tophead */
+.tophead{
+background-color: var(--dark-color);
+}
+.tophead .navbar-nav .nav-link {
+    color: white;
+}
+
+.tophead .navbar-nav .nav-link.active,
+.tophead .navbar-nav .nav-link:focus,
+.tophead .navbar-nav .nav-link:hover {
+    color: var(--yellow-color);
+}
+
+.globe img{
+    margin-bottom: -35px;
+}
+.globe a{
+    margin-top: -19px;
+    font-size: 20px;
+}
+.globe .nav-link:hover{
+    color: var(--yellow-color);
+}
+
+/* end tophead */
+
+/* start navbar */
+
+.navbar{
+    background-color: var(--yellow-color);
+}
+
+
+
+.dropdown-toggle::after {
+    display:none;
+}
+
+/* end navbar */
+
+
+/* start features  */
+
+
+.features .feat h4{
+    color: white;
+}
+.features .feat p{
+    color: white;
+}
+
+.features{
+    background-color: var(--dark-color);
+
+}
+
+/* end features  */
+
+
+.accordion-button{
+    background-color: var(--yellow-color);
+}
+
+.social-media{
+    background-color: #3B3B3B;
+    height: 100px;
+}
+.social-media svg{
+color: white;
+height: 50px;
+
+}
