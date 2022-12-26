@@ -41,6 +41,9 @@ background-color: var(--dark-color);
     background-color: var(--yellow-color);
 }
 
+.nav-link{
+    color: white;
+}
 
 
 .dropdown-toggle::after {
@@ -79,5 +82,18 @@ background-color: var(--dark-color);
 .social-media svg{
 color: white;
 height: 50px;
+
+}
+
+#login {
+    padding: 10px 30px 10px 10px;
+    color: white;
+    text-decoration: none;
+
+}
+#signup {
+    padding: 10px;
+    color: white;
+    text-decoration: none;
 
 }
